@@ -1,6 +1,6 @@
 import { type Task } from "../interfaces/Tasks.interfaces";
 
-const BASE_URL = "http://localhost:3001/tasks";
+const BASE_URL = "http://localhost:3000/api";
 
 export const getTasks = async (): Promise<Task[]> => {
   // TODO: completar fetch GET
